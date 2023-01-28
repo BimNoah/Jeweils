@@ -1,17 +1,12 @@
 {
-  "Name": "Example.Mod",
-  "Description": "A cool mod that does cool stuff",
+  "Name": "Jeweils",
+  "Description": "A small mod that adds small quality of life thingies.",
   "Version": "1.0.0",
 
-  "LoadPriority": 1,
+  "LoadPriority": 2,
   "ConVars": [],
   "Scripts": [
     {
-      "Path": "example.nut",
-      "RunOn": "SERVER",
-      "ClientCallback": {
-        "Before": "example_callback"
-      }
     }
   ],
   "Localisation": []
